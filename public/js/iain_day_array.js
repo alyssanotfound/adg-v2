@@ -1,0 +1,17 @@
+var textInfo = [
+  "<div>Iain Ball, Installation view: <i>Energy Pangea:</i> QUIPROH, <i>+ Gashi/Gic/Graph > Slimefest (Lutetium)</i>, Alyssa Davis Gallery, <div class='number'>2018</div></div>",
+  "<div>Iain Ball, <i>Quiproh (Lutetium)</i>, detail</div>",
+  "<div>Iain Ball, Installation view: <i>Energy Pangea:</i> QUIPROH, <i>+ Gashi/Gic/Graph > Slimefest (Lutetium)</i>, Alyssa Davis Gallery, <div class='number'>2018</div></div>",
+  "<div>Iain Ball, <i>Quiproh (Lutetium)</i>, detail</div>",
+  "<div>Iain Ball, <i>Quiproh (Lutetium)</i>, detail</div>",
+  "<div>Iain Ball, <i>Slimefeast (Lutetium/Symptoms)</i>, detail</div>",
+  "<div>Iain Ball, <i>Girpith (Lutetium)</i>, <div class='number'>2017</div>, 3D printed nylon, slime, <div class='number'>8 x 8 x 8.5</div>in.</div>",
+  "<div>Iain Ball, <i>Gashi (Lutetium)</i>, <div class='number'>2017</div>, 3D printed nylon, digital print, glass, hardware, slime, 3D print: <div class='number'>6.75 x 8.25 x 8.25</div>/ Digital print: <div class='number'>33 x 47</div>in. / Glass: <div class='number'>13 x 13 x 0.25</div>in.</div>",
+  "<div>Iain Ball, Installation view: <i>Energy Pangea:</i> QUIPROH, <i>+ Gashi/Gic/Graph > Slimefest (Lutetium)</i>, Alyssa Davis Gallery, <div class='number'>2018</div></div>",
+  "<div>Iain Ball, <i>Quiproh (Lutetium)</i>, detail</div>",
+  "<div>Iain Ball, <i>Gic (Lutetium)</i>, <div class='number'>2017</div>, 3D printed nylon, glass, hardware, slime, 3D print: <div class='number'> 8.5 x 8.5 x 8.5</div>/ Digital print: <div class='number'>33 x 47</div>in. / Glass: <div class='number'>13 x 13 x 0.25</div>in.</div>",
+  "<div>Iain Ball, Installation view: <i>Energy Pangea:</i> QUIPROH, <i>+ Gashi/Gic/Graph > Slimefest (Lutetium)</i>, Alyssa Davis Gallery, <div class='number'>2018</div></div>",
+  "<div>Iain Ball, <i>Hyperflag America</i>, <div class='number'>2018</div>, digital collage</div>",
+  "<div>Iain Ball, <i>Quiproh (Lutetium)</i>, <div class='number'>2018</div>, 3D printed nylon, 2008 Volkswagen Passat 4-cylinder engine, cotton flag, resin gargoyles, slime, Flag: <div class='number'> 112 x 57</div> in. / Gargoyle (two parts): <div class='number'> 7.5 x 8.5 x 37</div> in. / 3D print: <div class='number'>8.3 x 8.3 x 8.3</div> in. / Engine: <div class='number'>23 x 26 x 27</div> in.</div>",
+  "<div>Iain Ball, <i>Slimefeast (Lutetium/Symptoms)</i>, <div class='number'>2018</div>, Cheese pizza, Tide pods ⌔ <div class='number'>8<div> inch radius, <div class='number'>6</div> inch arc</div>",
+];
