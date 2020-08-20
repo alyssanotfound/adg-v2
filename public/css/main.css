@@ -992,7 +992,7 @@ i {
     margin-right: 50px;
     font-family: 'Conv_Zagolovochnaya W01 Book';
     color: #101820;
-    width: 320px;
+    /*width: 320px;*/
   }
 
   .publication-list ul {
