@@ -11,6 +11,12 @@
   <link rel="icon" type="image/png" href="http://www.alyssadavis.gallery/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="http://www.alyssadavis.gallery/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="http://www.alyssadavis.gallery/images/favicon-16x16.png">
+
+  <!-- jQuery and Bootstrap JS -->
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- BootstrapValidator JS -->
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
 </head>
 
 <body>
@@ -40,7 +46,7 @@
 
               <br>
 
-              <div class="info phone number">401 263 4093</div>
+              <div class="info phone">+<span class="number">1</span> (<span class="number">401</span>) <span class="number">263 4093</span></div>
 
               <br>
 
@@ -58,7 +64,26 @@
       <a class="social info" href="https://www.facebook.com/alyssadavisgallery">Facebook</a><br>
       <a class="social info" href="https://www.instagram.com/alyssadavisgallery/">Instagram</a><br><br>
 
-      <!-- GOOGLE ANALYTICS -->
+      <div id="container-p">
+          <form class="form-horizontal" role="form" id="test-form">
+              <div class="form-group">
+                <div class="col-lg-3 inputGroupContainer">
+                  <div class="input-group">
+                    <input type="text" class="form-control" name="email" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-9 col-lg-offset-3">
+                  <button type="submit" class="btn btn-default" id="postForm">subscribe</button>
+                </div>
+              </div>
+          </form>
+          <p class="success-sub">Thank you</p>
+      </div>
+
+      <!-- JAVASCRIPT LIBS -->
+      <script type="text/javascript" src="/js/validation-functions.js"></script>
 
       <!-- GOOGLE MAPS -->
       </div>
