@@ -1630,6 +1630,7 @@ i {
 
     .input-group input {
       display: block;
+      height: 14px;
     }
 
     .form-group button {
