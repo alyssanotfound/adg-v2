@@ -81,7 +81,12 @@ $(document).ready(function() {
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
         var jqxhr = $.post(url, $form.serialize(), function(data) {
             console.log("Success! Data: " + data.responseData);
-            $(".success-sub").show(0).delay(2000).hide(0);
+            // $(".success-sub").show(0).delay(2000).hide(0);
+            // $(".success-sub").css("visibility", "visible");
+            $(".success-sub").css("visibility", "visible");
+            setTimeout( function(){
+                $('.success-sub').css("visibility", "hidden");
+            },2500);
             $('.form-horizontal').trigger("reset");
 
             // $(location).attr('href',redirectUrl);
