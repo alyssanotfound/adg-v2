@@ -3,7 +3,7 @@ $(document).ready(function() {
     function centerF() {
         var tempM = ((($('#test-form').width())-240)/2)-75;
         var n = tempM.toString()+"px";
-        console.log(n);
+        // console.log(n);
         $('.success-sub').css("margin-right",n);   
     }
     if ($(window).width() < 1045) {
