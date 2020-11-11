@@ -1631,6 +1631,7 @@ i {
     .input-group input {
       display: block;
       height: 14px;
+      border-radius: 0px;
     }
 
     .form-group button {
