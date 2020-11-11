@@ -1632,6 +1632,7 @@ i {
       display: block;
       height: 14px;
       border-radius: 0px;
+      width: 152px;
     }
 
     .form-group button {
@@ -1664,6 +1665,14 @@ i {
 
     .success-sub {
       visibility: hidden;
+      margin-right: 0px;
+    }
+
+    .bookappt {
+      display: block;
+    }
+    .join {
+      display: block;
     }
 
     @media (max-width: 1045px) {

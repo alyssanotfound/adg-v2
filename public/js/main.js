@@ -156,3 +156,5 @@ function updateText() {
   $(".gallery-text").empty();
   $( ".gallery-text" ).append( textInfo[currentIndex] );
 }
+
+

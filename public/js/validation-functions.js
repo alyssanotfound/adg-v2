@@ -1,4 +1,25 @@
 $(document).ready(function() {
+    //footer placement calc for centering
+    function centerF() {
+        var tempM = ((($('#test-form').width())-240)/2)-75;
+        var n = tempM.toString()+"px";
+        console.log(n);
+        $('.success-sub').css("margin-right",n);   
+    }
+    if ($(window).width() < 1045) {
+       centerF();
+    }
+    
+
+    $( window ).resize(function() {
+        if ($(window).width() < 1045) {
+           centerF();
+        }
+        if ($(window).width() > 1045) {
+           $('.success-sub').css("margin-right","0px");
+        }
+    });
+
     $('#test-form').bootstrapValidator({
         //submitButtons: '#postForm',
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
