@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    //ADD TEMP FOR MERDE!
+    // alert("Hello, world");
     //footer placement calc for centering
     function centerF() {
         var tempM = ((($('#test-form').width())-240)/2)-75;
