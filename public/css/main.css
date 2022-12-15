@@ -1543,8 +1543,17 @@ i {
         flex-direction: row;
       }
 
+
+      .merdemenu {
+        flex-direction: column;
+      }
+
       .single-exhibition-menu .mobile {
         display: inline-block;
+      }
+
+      .merdemenu .mobile {
+        display: none;
       }
 
       .single-exhibition-menu > li {
