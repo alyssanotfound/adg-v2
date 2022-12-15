@@ -1605,6 +1605,10 @@ i {
       display: inline-block!important;
     }
 
+    #mc_embed_signup input.button {
+      background-color: #f1f0ed;
+    }
+
     #mc_embed_signup_scroll {
       margin-top: 4px;
       padding-right: 15%;
