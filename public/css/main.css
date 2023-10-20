@@ -153,7 +153,6 @@ i {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    max-width: 340px;
     color: black;
     -webkit-padding-start: 0;
     -webkit-padding-start: 0;
@@ -161,7 +160,6 @@ i {
     -webkit-margin-before: 0;
     -webkit-margin-start: 0;
     height: auto;
-    justify-content: flex-start;
     margin-top: 15px;
   }
 
@@ -264,7 +262,8 @@ i {
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     -webkit-padding-start: 0px;
-    margin: 40px 50px 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: 'Conv_Zagolovochnaya W01 Book';
     color: #101820;
     max-width: 230px;
@@ -272,8 +271,9 @@ i {
 
   .exhibition-list ul {
     display: flex;
+    gap: 20px;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     -webkit-padding-start: 0px;
@@ -355,11 +355,12 @@ i {
       display: flex;
       flex-wrap: wrap;
       -webkit-padding-start: 0;
-      justify-content: flex-start;
+      gap: 20px;
+      justify-content: space-around;
     }
 
     .exhibition-list ul.exhibition-list-wrapper li.exhibition {
-      margin: 20px 40px 20px 0;
+      /* margin: 20px 40px 20px 0; */
       width: 230px;
     }
 
