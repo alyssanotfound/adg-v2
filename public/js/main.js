@@ -157,4 +157,38 @@ function updateText() {
   $( ".gallery-text" ).append( textInfo[currentIndex] );
 }
 
+////////////////////////////
+// -- DISPLAY MOBILE MENU -- //
+////////////////////////////
+
+var btn = document.getElementById("btn-dropdown");
+var nav = document.getElementById("nav-menu");
+
+btn.addEventListener('click', () => {
+  if(!btn.classList.contains("is-open")) {
+    btn.classList.add("is-open");
+    nav.classList.add("is-open");
+  } else {
+    btn.classList.remove("is-open");
+    nav.classList.remove("is-open");
+  }
+});
+
+// if (mobile is on ) {
+//   function displayMenu();
+// }
+// when turn to mobile turn off all menu items except selected one
+// function displayMenu() {
+  // if ($('#nav-menu').click) {
+  // $('#nav-menu').children.hide();
+  // } 
+// }
+
+// function displayMenu() {
+//   if ($('#nav-menu').click) {
+//     $('#nav-menu').show();
+//   } 
+// }
+
+
 
