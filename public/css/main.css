@@ -1785,6 +1785,88 @@ i {
       font-size:11px;
     }
 
+/* navbar for mobile */
 
+.mobile-nav {
+  display: none
+}
 
+@media only screen and (max-width: 480px) {
+  .nav {
+    display: none!important;
+  }
 
+  .mobile-nav {
+    display: block;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+}
+.selected-mnav {
+  border-color: #101820;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #101820;
+  border-width: 2px;
+  border-style: solid;
+  border-top: 0px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.dropdown-item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #1018202a;
+}
+
+.dropdown a {
+  color: #101820;
+  text-decoration: none;
+}
+
+.dropdown-item.selected {
+  display: none;
+}
+
+.selected-mnav-arrow {
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(0deg);
+}
+
+.icon-small {
+  width: 0.5rem;
+  transition: transform 0.08s ease-in-out;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.no-rotate {
+  transform: rotate(0deg);
+}
+
+.hidden {
+  display: none;
+}
